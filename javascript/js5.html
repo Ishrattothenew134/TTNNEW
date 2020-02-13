@@ -1,0 +1,97 @@
+<HTML>
+<head>
+<script>
+	var Employee;
+	function create(){
+	Employee=[
+	{ name: "shashank", age: 21, salary:5000 , DOB:"22-02-1998"},
+	{ name: "karan", age: 22, salary:4000 , DOB:"23-03-1998"},
+	{ name: "rohit", age: 27, salary:5500 , DOB:"16-09-1998"},
+	{ name: "kirtan", age: 22, salary:9000 , DOB:"02-02-1997"},
+	{ name: "naman", age: 21, salary:3000 , DOB:"14-07-1998"},
+	{ name: "ankur", age: 27, salary:900 , DOB:"19-07-1998"}
+	];
+
+	var html = "<table border='1|1'>";
+	for (var i = 0; i < Employee.length; i++) {
+    html+="<tr>";
+    html+="<td>"+Employee[i].name+"</td>";
+    html+="<td>"+Employee[i].age+"</td>";
+    html+="<td>"+Employee[i].salary+"</td>";
+    html+="<td>"+Employee[i].DOB+"</td>";
+    html+="</tr>";}
+	html+="</table>";
+	document.getElementById("box").innerHTML = html;
+	
+}
+
+	function sal(){
+
+	var a =Employee.filter(function(emp){
+		return emp.salary>5000;
+	});
+
+	var html = "<table border='1|1'>";
+	for (var i = 0; i < a.length; i++) {
+    html+="<tr>";
+    html+="<td>"+a[i].name+"</td>";
+    html+="<td>"+a[i].age+"</td>";
+    html+="<td>"+a[i].salary+"</td>";
+    html+="<td>"+a[i].DOB+"</td>";
+    html+="</tr>";}
+	html+="</table>";
+	document.getElementById("res").innerHTML = html;
+	
+}
+
+function group_age()
+{
+	var group = Employee.reduce((r, a) => {
+ 	console.log("a", a);
+ 	console.log('r', r);
+ 	r[a.age] = [...r[a.age] || [], a];
+ 	return r;
+	}, {});
+
+	console.log("group",group);
+}
+
+function increment()
+{
+	var a = Employee.filter(function(emp){
+		return (emp.salary<1000 && emp.age>20);
+	});
+
+	for(i=0;i<a.length;++i)
+	{
+		a[i].salary = a[i].salary*5;
+	}
+	var html = "<table border='1|1'>";
+	for (var i = 0; i < a.length; i++) {
+    html+="<tr>";
+    html+="<td>"+a[i].name+"</td>";
+    html+="<td>"+a[i].age+"</td>";
+    html+="<td>"+a[i].salary+"</td>";
+    html+="<td>"+a[i].DOB+"</td>";
+    html+="</tr>";}
+	html+="</table>";
+	document.getElementById("fourth").innerHTML = html;
+
+}
+
+
+</script>
+</head>
+<body>
+	<button onclick="create()">create_list</button>
+	<p id="box"></p>
+
+	<button onclick="sal()">filter</button>
+	<p id="res"></p>
+
+	<button onclick="group_age()">Group_by_age</button>
+	<p id ="mm"> </p>
+	<button onclick="increment()">Give_increment</button>
+	<p id= "fourth"></p>
+</body>
+</HTML>

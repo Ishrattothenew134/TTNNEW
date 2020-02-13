@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>
+<button onclick="myFunction1()">Enter Amount</button>
+</p>
+<p id ="amount"></p>
+<p>
+<button onclick="myFunction2()">Enter Rate</button>
+</p>
+<p id="rate"></p>
+
+<p>
+<button onclick="myFunction3()">Enter time</button>
+</p>
+
+<p id="time"></p>
+
+<p>
+<button onclick="simple_interest()">calculate</button>
+</p>
+
+<script>
+function myFunction1() {
+  var amount = prompt("Please enter the amount",null);
+  if (amount!=null)
+  {
+
+  	document.getElementById('amount').innerHTML = amount;
+  }
+  }
+
+function myFunction2() {
+  var rate = prompt("Please enter the rate",null);
+   if (rate!=null)
+  {
+
+  	document.getElementById('rate').innerHTML = rate;
+  }
+  }
+
+function myFunction3() {
+  var time = prompt("Please enter the time",null);
+   if (time!=null)
+  {
+
+  	document.getElementById('time').innerHTML = time;
+  }
+  }
+
+function simple_interest()
+{
+	var amt = document.getElementById('amount').innerHTML;
+	var rt = document.getElementById('rate').innerHTML;
+	var t = document.getElementById('time').innerHTML;
+	var si = (amt*rt*t)/100;
+	alert(si);
+
+}
+
+</script>
+
+</body>
+</html>

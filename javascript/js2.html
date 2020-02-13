@@ -1,0 +1,25 @@
+<html>
+<head>
+	
+</head>
+<body>
+	<input type = "text" id = "str">
+	<button onclick="reverse()">check</button>
+	<script>
+		function reverse()
+		{
+			var str = document.getElementById('str').value;
+			var strrev = str.split("").reverse().join("");
+
+			if(str === strrev)
+			{
+			alert("palindrome");
+			}
+			else
+			{
+			alert("not palindrome");
+			}
+		}
+	</script>
+</body>
+</html>
