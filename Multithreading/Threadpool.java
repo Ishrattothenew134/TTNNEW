@@ -1,4 +1,3 @@
-//Q4.Write a program to create a Thread pool of 2 threads where one Thread will print even numbers and other will print odd numbers.
 package Multithreading;
 
 import java.util.concurrent.ExecutorService;
