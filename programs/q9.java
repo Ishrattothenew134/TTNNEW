@@ -13,7 +13,7 @@ enum House{
         return price;
     }
 }
-public class q9 {
+    class Ques9 {
     public static void main(String [] args) {
         for(House h : House.values())
             System.out.println(h + " " + h.getPrice());

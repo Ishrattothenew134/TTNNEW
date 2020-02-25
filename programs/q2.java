@@ -3,7 +3,7 @@ package custom;
 
 import java.util.*;
 
-public class q2{
+    class Ques2{
     public static void main(String[] args) {
         String s1 = "smart work is smart work";
         String[] s2 = s1.split(" ");

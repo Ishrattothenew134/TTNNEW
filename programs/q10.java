@@ -9,7 +9,7 @@ package custom;
   F) Concate 3 String
   */
 
-class q10 {
+class Ques10 {
     public static void main(String [] agrs) {
         addinteger(8,6);
         addinteger(2.5,2.6);

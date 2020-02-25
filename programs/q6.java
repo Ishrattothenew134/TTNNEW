@@ -4,7 +4,7 @@ package custom;
 import java.util.HashMap;
 import java.util.Objects;
 
-public class q6 {
+    class Ques6 {
     public static void main(String[] args) {
         int[] intArray = new int[]{2,3,5,7,1,6,2,3,5,1,7};
         int val;

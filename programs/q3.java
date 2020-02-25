@@ -1,7 +1,7 @@
 /*Q3. Write a program to find the number of occurrences of a character in a string without using loop? */
 package custom;
 
-class  q3 {
+class  Ques3 {
     static int countOccurences(String someString, char searchedChar, int index) {
         if (index >= someString.length()) {
             return 0;
@@ -12,7 +12,7 @@ class  q3 {
     }
 
     public static void main(String[] args) {
-        int m = q3.countOccurences("elephant",'e',0);
+        int m = Ques3.countOccurences("elephant",'e',0);
         System.out.println(m);
     }
 }

@@ -1,6 +1,6 @@
 // Q7. Write a program to print your Firstname,LastName & age using static block,static method & static variable respectively
 package custom;
-class myStaticClass {
+class MyStaticClass {
     static String firstName;
     static String lastName;  // static variable
     static int age;
@@ -18,13 +18,13 @@ class myStaticClass {
 
 }
 
-class myClass {
+class MyClass {
     public static void main(String args[]) {
-        System.out.println(myStaticClass.firstName);
-        myStaticClass.setLastName("Mahajan");
-        System.out.println(myStaticClass.lastName);
-        myStaticClass.age = 22;
-        System.out.println(myStaticClass.age);
+        System.out.println(MyStaticClass.firstName);
+        MyStaticClass.setLastName("Mahajan");
+        System.out.println(MyStaticClass.lastName);
+        MyStaticClass.age = 22;
+        System.out.println(MyStaticClass.age);
 
     }
 }

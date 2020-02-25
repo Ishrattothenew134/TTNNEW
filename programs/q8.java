@@ -2,7 +2,7 @@
 string using String Buffer
  */
 package custom;
-public class q8 {
+    class Ques8 {
     public static void main(String[] args) {
         StringBuffer sbr = new StringBuffer("assassination");
         StringBuffer newsbr = new StringBuffer();

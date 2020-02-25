@@ -57,7 +57,7 @@ class Bank {
     }
 }
 
-class q11 {
+class Ques11 {
     public static void main(String args []){
         Bank bank = new Bank();
         bank.getDetails();

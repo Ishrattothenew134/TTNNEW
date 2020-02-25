@@ -3,7 +3,7 @@ In A String
  */
 package custom;
 
-public class q4 {
+    class Ques4 {
     public static void main(String[] args) {
         int ctr_upper=0, ctr_lower=0, ctr_digit=0, ctr_special = 0 , wh=0;
         String str = "a 2QuiCk @ brOwn fox jumped over 1 #lazy doG";
