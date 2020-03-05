@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1583401339625
+Build-Jdk: 1.8.0_242
+Built-By: ishrat
+Bundle-ManifestVersion: 2
+Bundle-Name: Student
+Bundle-SymbolicName: org.example.Student
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: Services;uses:=Implementations;version="1.0.0",Implement
+ ations;version="1.0.0"
+Import-Package: Implementations,Services
+Provide-Capability: osgi.service;objectClass:List<String>="Services.Stud
+ entService",osgi.service;objectClass:List<String>="Services.StudentServ
+ ice2"
+Require-Capability: osgi.service;filter:="(objectClass=Services.StudentS
+ ervice2)";effective:=active,osgi.extender;filter:="(&(osgi.extender=osg
+ i.component)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(o
+ sgi.ee=JavaSE)(version=1.6))"
+Service-Component: OSGI-INF/Implementations.MyClass.xml,OSGI-INF/Service
+ s.ClassConfigurationService.xml,OSGI-INF/Services.StudentConfigurationS
+ ervice.xml
+Tool: Bnd-4.1.0.201810181252
