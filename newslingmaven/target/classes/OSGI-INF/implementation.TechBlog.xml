@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="implementation.TechBlog" activate="activate">
+  <implementation class="implementation.TechBlog"/>
+  <service>
+    <provide interface="Services.services"/>
+  </service>
+  <property name="setRank" type="Integer" value="1"/>
+  <property name="setBlogCategory" type="String" value="Technology"/>
+  <property name="version" type="String" value="tech"/>
+</scr:component>

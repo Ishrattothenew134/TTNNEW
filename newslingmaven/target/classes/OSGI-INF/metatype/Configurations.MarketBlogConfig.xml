@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/Configurations.MarketBlogConfig">
+  <OCD id="Configurations.MarketBlogConfig" name="Configurations market blog config" description="">
+    <AD id="setBlogcategory" type="String" name="Blog category" default="Marketing"/>
+    <AD id="setRank" type="Integer" name="Rank" default="2"/>
+  </OCD>
+  <Designate pid="implementation.MarketBlog">
+    <Object ocdref="Configurations.MarketBlogConfig"/>
+  </Designate>
+</metatype:MetaData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="implementation.MarketBlog" activate="activate">
+  <implementation class="implementation.MarketBlog"/>
+  <service>
+    <provide interface="Services.services"/>
+  </service>
+  <property name="setRank" type="Integer" value="2"/>
+  <property name="setBlogcategory" type="String" value="Marketing"/>
+  <property name="version" type="String" value="market"/>
+</scr:component>

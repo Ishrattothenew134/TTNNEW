@@ -1,0 +1,7 @@
+Configurations/MarketBlogConfig.class
+implementation/TechBlog.class
+implementation/MarketBlog.class
+Configurations/TechBlogconfig.class
+Services/Test.class
+Services/services.class
+implementation/BlogsCollector.class
