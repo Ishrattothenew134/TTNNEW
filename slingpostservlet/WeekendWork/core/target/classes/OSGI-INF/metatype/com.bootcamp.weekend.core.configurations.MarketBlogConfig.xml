@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.bootcamp.weekend.core.configurations.MarketBlogConfig">
+  <OCD id="com.bootcamp.weekend.core.configurations.MarketBlogConfig" name="Com bootcamp weekend core configurations market blog config" description="">
+    <AD id="setBlogcategory" type="String" name="Blog category" default="Marketing"/>
+    <AD id="setRank" type="Integer" name="Rank" default="2"/>
+  </OCD>
+  <Designate pid="com.bootcamp.weekend.core.implementations.MarketBlog">
+    <Object ocdref="com.bootcamp.weekend.core.configurations.MarketBlogConfig"/>
+  </Designate>
+</metatype:MetaData>

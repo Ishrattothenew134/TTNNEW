@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: AEMBootcamp - UI content
+Content-Package-Roots: /conf/ AEMBootcamp,/content/ AEMBootcamp,/conte
+ nt/dam/ AEMBootcamp
+Implementation-Version: 1.0.0
+Built-By: ishrat
+Implementation-Vendor-Id: AEMBootcamp
+Content-Package-Type: content
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_242
+Content-Package-Description: UI content package for  AEMBootcamp
+Content-Package-Id: AEMBootcamp:WeekendWork.ui.content:1.0.0
+

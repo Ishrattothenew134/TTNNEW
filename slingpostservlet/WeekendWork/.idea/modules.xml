@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WeekendWork.iml" filepath="$PROJECT_DIR$/WeekendWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/WeekendWork.core.iml" filepath="$PROJECT_DIR$/core/WeekendWork.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.launcher/WeekendWork.it.launcher.iml" filepath="$PROJECT_DIR$/it.launcher/WeekendWork.it.launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.tests/WeekendWork.it.tests.iml" filepath="$PROJECT_DIR$/it.tests/WeekendWork.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/WeekendWork.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/WeekendWork.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/WeekendWork.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/WeekendWork.ui.content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.frontend/WeekendWork.ui.frontend.iml" filepath="$PROJECT_DIR$/ui.frontend/WeekendWork.ui.frontend.iml" />
+    </modules>
+  </component>
+</project>

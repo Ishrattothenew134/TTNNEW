@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.bootcamp.weekend.core.configurations.TechBlogConfig">
+  <OCD id="com.bootcamp.weekend.core.configurations.TechBlogConfig" name="Com bootcamp weekend core configurations tech blog config" description="">
+    <AD id="setBlogCategory" type="String" name="Blog Category" default="Technology"/>
+    <AD id="setRank" type="Integer" name="Rank" default="1"/>
+  </OCD>
+  <Designate pid="com.bootcamp.weekend.core.implementations.TechBlog">
+    <Object ocdref="com.bootcamp.weekend.core.configurations.TechBlogConfig"/>
+  </Designate>
+</metatype:MetaData>

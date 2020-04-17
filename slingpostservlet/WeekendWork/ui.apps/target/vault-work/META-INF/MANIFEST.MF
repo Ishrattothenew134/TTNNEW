@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: AEMBootcamp - UI apps
+Content-Package-Roots: /apps/AEMBootcamp,/etc/packages/adobe/cq60/core
+ .wcm.components.all-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.compo
+ nents.examples-2.5.0.zip
+Implementation-Version: 1.0.0
+Built-By: ishrat
+Implementation-Vendor-Id: AEMBootcamp
+Import-Package: com.adobe.cq.sightly;version="[3.2.0,4.0.0)",org.apach
+ e.sling.api;version="[2.3.3,3.0.0)",org.apache.sling.scripting.sightl
+ y.pojo;version="[1.0.1,2.0.0)"
+Content-Package-Type: mixed
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_242
+Content-Package-Description: UI apps package for  AEMBootcamp
+Content-Package-Id: AEMBootcamp:WeekendWork.ui.apps:1.0.0
+

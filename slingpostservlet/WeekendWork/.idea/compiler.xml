@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="WeekendWork.it.launcher" />
+        <module name="WeekendWork.ui.apps" />
+        <module name="WeekendWork.core" />
+        <module name="WeekendWork.ui.content" />
+        <module name="WeekendWork.it.tests" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="WeekendWork" target="1.8" />
+      <module name="WeekendWork.core" target="1.8" />
+      <module name="WeekendWork.it.launcher" target="1.8" />
+      <module name="WeekendWork.it.tests" target="1.8" />
+      <module name="WeekendWork.ui.apps" target="1.8" />
+      <module name="WeekendWork.ui.content" target="1.8" />
+      <module name="WeekendWork.ui.frontend" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

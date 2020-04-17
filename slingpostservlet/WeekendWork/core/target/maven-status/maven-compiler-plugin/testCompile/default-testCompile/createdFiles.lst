@@ -1,0 +1,5 @@
+com/bootcamp/weekend/core/models/HelloWorldModelTest.class
+com/bootcamp/weekend/core/servlets/SimpleServletTest.class
+com/bootcamp/weekend/core/schedulers/SimpleScheduledTaskTest.class
+com/bootcamp/weekend/core/listeners/SimpleResourceListenerTest.class
+com/bootcamp/weekend/core/filters/LoggingFilterTest.class

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.bootcamp.weekend.core.implementations.MarketBlog" activate="activate">
+  <property name="name" type="String" value="market"/>
+  <property name="setRank" type="Integer" value="2"/>
+  <property name="setBlogcategory" type="String" value="Marketing"/>
+  <service>
+    <provide interface="com.bootcamp.weekend.core.services.Service"/>
+  </service>
+  <implementation class="com.bootcamp.weekend.core.implementations.MarketBlog"/>
+</scr:component>

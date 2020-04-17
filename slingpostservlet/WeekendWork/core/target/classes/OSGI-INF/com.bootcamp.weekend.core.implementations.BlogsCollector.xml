@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.bootcamp.weekend.core.implementations.BlogsCollector" activate="activate" deactivate="deactivate">
+  <service>
+    <provide interface="com.bootcamp.weekend.core.implementations.BlogsCollector"/>
+  </service>
+  <reference name="marketblog" interface="com.bootcamp.weekend.core.services.Service" target="(name=market)" field="marketblog"/>
+  <reference name="techblog" interface="com.bootcamp.weekend.core.services.Service" target="(name=tech)" field="techblog"/>
+  <implementation class="com.bootcamp.weekend.core.implementations.BlogsCollector"/>
+</scr:component>
